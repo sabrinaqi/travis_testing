@@ -8,9 +8,9 @@ def interface():
     b = input("Type another number: ")
     a = float(a)
     b = float(b)
-    answer = subtract(a,b)
+    answer = subtract(a, b)
     print("The difference between {} and {} is {}".format(a, b, answer))
-
+    return
 
 if __name__ == "__main__":
-		interface()
+    interface()
